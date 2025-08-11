@@ -25,7 +25,6 @@ export default function TodoApp() {
   };
 
   const plural = tasks.length === 1 ? "item" : "item";
-  // (Design shows “4 item left” even for plural; keeping it identical.)
 
   return (
     <div className="page">

@@ -9,7 +9,7 @@ html, body, #root { height: 100%; }
 
 body {
   margin: 0;
-  background: #ffffff;                 /* <-- pure white background */
+  background: #ffffff;                 
   color: #4d4d4d;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
@@ -17,25 +17,25 @@ body {
 /* ---------- Title ---------- */
 .title{
   text-align: center;
-  font-size: 120px;                    /* big, airy like the comp */
+  font-size: 120px;                   
   font-weight: 100;
   line-height: 1;
   letter-spacing: -2px;
-  color: rgba(175, 47, 47, 0.15);      /* pale pink */
-  margin: 28px 0 8px;                  /* tighter gap to card */
+  color: rgba(175, 47, 47, 0.15);     
+  margin: 28px 0 8px;                  
 }
 
 /* ---------- Layout ---------- */
 .page{
   display: flex;
   flex-direction: column;
-  align-items: center;                 /* center the card */
+  align-items: center;                
 }
 
 /* ---------- Card ---------- */
 .card{
   position: relative;
-  width: 640px;                        /* narrower like the comp */
+  width: 640px;                        
   max-width: calc(100vw - 80px);
   background: #fff;
   border: 1px solid var(--border);
@@ -65,11 +65,11 @@ body {
 .new-task{
   border: none;
   outline: none;
-  font-size: 24px;                     /* matches screenshot */
+  font-size: 24px;                    
   padding: 2px 0;
 }
 .new-task::placeholder{
-  color: #999;                         /* lighter placeholder */
+  color: #999;                        
 }
 
 /* optional: keep the + but subtle */
